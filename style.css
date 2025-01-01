@@ -37,16 +37,19 @@ p{
     font-family: var(--font-text);
     text-align: justify;
     padding: 10px;
-    margin: 10px;
+    margin: -7px;
 }
 blockquote{
     font-family: var(--font-citaçoes);
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
-    color: black;
-}
-blockquote + p {
-    margin-top: 0; /* Remove a margem extra acima do parágrafo */
+    margin-bottom: 0px;
+    color: var(--cor1);
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 header{
     background-color: var(--cor0);
@@ -55,8 +58,13 @@ header{
     box-shadow: 1px 1px 5px black;
     max-width: 90%;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     padding-top: 10px;
+    text-align: center;
+}
+header p {
+    text-align: center;
 }
 
 main{
@@ -69,16 +77,25 @@ main{
     color: white;
     box-shadow: 1px 1px 5px black;
 }
-main > p {
+main p {
     text-align: justify;
-  
+    text-indent: 20px;
+    line-height: 1.8em;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 footer{
     text-align: center;
     background-color: var(--cor0);
     color: white;
     margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 footer > p {
     text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+    
 }
